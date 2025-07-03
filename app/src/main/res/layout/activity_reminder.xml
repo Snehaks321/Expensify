@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Reminder">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName9"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Time"
+        android:inputType="textPersonName"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-60dp"
+        android:ems="10"
+        android:hint="AM/PM"
+        android:inputType="textPersonName"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName11"
+        android:layout_width="168dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="50sp"
+        android:ems="10"
+        android:hint="Repeat/once"
+        android:inputType="textPersonName"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName12"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-80dp"
+        android:ems="10"
+        android:hint="Day"
+        android:inputType="textPersonName"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="match_parent"
+        android:layout_height="121dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="100sp"
+        android:text="save"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:layout_marginTop="-110sp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginRight="250dp"
+        android:text="cancel"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+</LinearLayout>
